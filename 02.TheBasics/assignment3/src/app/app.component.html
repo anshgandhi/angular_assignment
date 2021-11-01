@@ -1,0 +1,10 @@
+<button
+  (click)="onClickDisplayDetails()"
+>Display Details:</button>
+<p *ngIf="display_toggle">Secret Content = Hello!</p>
+<div 
+  *ngFor="let event of events" 
+  [ngStyle]="{backgroundColor: getStyle(event)}" 
+  [ngClass]="{white_color: getClass(event)}">
+    {{ event }}
+  </div>

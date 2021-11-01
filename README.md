@@ -12,5 +12,6 @@ Assignment Description:
 1) 02.TheBasics:  
     i) Creating components.  
     ii) Two-way data binding. Button disabled change based on input value.  
+    iii) playing with ngIf, ngClass, ngFor Directives
 
 2) 03.CourseProject:  
