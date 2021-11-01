@@ -17,12 +17,12 @@ export class AppComponent {
 
   onClickDisplayDetails(){
     this.display_toggle = !this.display_toggle
-    var a = Date.now().toString()
+    var a = new Date().toString()
     this.events.push(a)
   }
 
   getStyle(item: string){
-    return this.events.indexOf(item) >= 5 ? 'blue' : 'green'
+    return this.events.indexOf(item) >= 5 ? 'blue' : 'transparent'
   }
 
   getClass(item: string){
